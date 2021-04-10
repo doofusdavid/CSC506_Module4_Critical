@@ -14,7 +14,7 @@ class Stack:
 
     def pop(self):
         # Copy data from list's head node (stack's top node)
-        return self.list.pop()
+        return self.list.pop().data
 
     def __str__(self):
         string = ""
